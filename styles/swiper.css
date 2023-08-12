@@ -1,0 +1,25 @@
+.swiper {
+    width: 100%;
+    overflow-y: visible;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    top: -70px;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    color: #F6CC68;
+}
+
+.swiper-button-prev {
+    left: auto;
+    right: 70px;
+}
